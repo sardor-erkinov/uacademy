@@ -1,0 +1,63 @@
+* {
+    padding: 10px;
+}
+
+/* .container {
+    box-shadow: 10px 10px red;
+    border-top-right-radius: 10px;
+} */
+
+button::after {
+    content: '!';
+    /* background-color: ; */
+}
+
+/* button {
+    position: relative;
+}
+
+button::before {
+    content: '______';
+    position: absolute;
+    top: 10px;
+    border-bottom: 1px solid red;
+}
+
+button:hover:before {
+    border-bottom: 1px solid blue;
+} */
+
+/* h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.box {
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(165deg, rgba(75, 65, 240, 1) 0%, rgba(4, 112, 189, 1) 10%, rgba(161, 161, 254, 1) 81%, rgba(0, 212, 255, 1) 100%);
+    box-shadow: 10px 10px 50px 40px indigo;
+}
+
+/* .phoneMockup {
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+
+.messageContainer {
+    padding: 10px;
+    width: 150px;
+    border-radius: 8px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.first_input+.second_button {
+    width: 10px;
+}

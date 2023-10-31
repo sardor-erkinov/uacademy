@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>9-dars</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <abbr title="United States of America">U.S.A</abbr>
+    <video controls style="width: 200px;" src="video.mp4"></video>
+    <audio style="width: 400px;" src="audio.mp3" controls></audio>
+    <form action="about.html" method="post" class="flex flex-column gap-1 form-container">
+        <label for="first_name">
+            First name
+        </label>
+        <input onchange="handleChange" required type="email" title="button" value="rtyddsfdf" id="name" name="email" class="nameInput"
+            aria-label="This input for inserting name">
+            <input type="password" name="password" id="farqi-yoq">
+            <select required name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        <button class="submit_btn" aria-label="Button for submitting form" type="submit">Submit</button>
+        <div>
+            <span class="fa fa-cloud"></span>
+            <i class="fa fa-heart red-icon" ></i>
+            <i class="fa fa-car"></i>
+            <i class="fa fa-file"></i>
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-user red-icon"></i>
+        </div>
+    </form>
+
+    <picture>
+        <source media="(min-width:650px)" srcset="./first_screenshot.png">
+        <source media="(min-width:465px)" srcset="./second_screen.png">
+        <img src="third_screen.png" alt="Flowers" style="width:auto;">
+    </picture>
+    <!-- <div style="display: flex; gap: 10px;">
+            <div style="height: 100px; background-color: red; align-self: flex-end; background: linear-gradient(40deg, red, green); box-shadow: 10px 10px 10px 20px red;">1234</div>
+            <div style="height: 200px;background-color: blue;">3456</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste alias nisi distinctio neque. Ex adipisci ipsa necessitatibus repudiandae ut recusandae, itaque ad excepturi id quidem fugiat nobis incidunt perferendis eum. Natus, cumque!</p>
+        </div>
+    -->
+</body>
+
+</html>
